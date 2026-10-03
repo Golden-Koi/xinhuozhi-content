@@ -1,0 +1,88 @@
+name: 内容补充或纠错 / Content contribution
+description: 为中国非遗内容提供中国官方来源、原创补充或事实更正。
+title: "[内容] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issue正文和附件公开可见，不要提交只允许私下核验的材料。使用范围选项仅约束网站采用，不会让Issue变成私密。
+        本仓库只接受内容线索，不接受网站代码修改。请先阅读 CONTENT_STANDARD.md 和 CONTRIBUTING.md。所有事实Source须为中国官方机构网站原文；外国来源、外国非遗项目不予采用。请勿上传无许可素材或私人资料。
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 投稿类型 / Type
+      options:
+        - 事实纠错 / Correction
+        - 内容补充 / Addition
+        - 官方资料线索 / Official source lead
+    validations:
+      required: true
+  - type: input
+    id: subject
+    attributes:
+      label: 中国非遗主题与地区 / Chinese heritage subject and place
+      description: 写明具体项目；认定名称、编号和地方记录已知时一并提供，不知道就写未知。
+    validations:
+      required: true
+  - type: input
+    id: existing_page
+    attributes:
+      label: 对应薪火志页面 / Existing page
+      description: 新主题可填“新主题”；纠错请给出具体页面URL。
+    validations:
+      required: true
+  - type: textarea
+    id: claims
+    attributes:
+      label: 补充或更正什么 / Proposed facts or correction
+      description: 逐条写明建议内容；事实、原创草稿、判断与未知事项分开，避免复制来源全文。
+    validations:
+      required: true
+  - type: textarea
+    id: official_sources
+    attributes:
+      label: 中国官方原文与逐条事实依据 / Chinese official sources
+      description: 每条来源写URL、标题、发布机构、发布/更新日期、访问日期、对应哪项说法、原文位置。无日期写未知。
+    validations:
+      required: true
+  - type: textarea
+    id: official_identity
+    attributes:
+      label: 如何确认是中国官方机构网站 / Official identity evidence
+      description: 提供可核对机构身份的官方介绍或主管部门链接。中文、.cn后缀或搜索排名都不足以单独证明官方身份。
+    validations:
+      required: true
+  - type: textarea
+    id: uncertainties
+    attributes:
+      label: 未知、冲突与时效限制 / Uncertainties and limits
+      description: 例如历史活动并非当前预约信息、英文名称并非官方译名。没有发现冲突也不表示已穷尽核验。
+    validations:
+      required: true
+  - type: dropdown
+    id: original_text_permission
+    attributes:
+      label: 原创文字的使用范围 / Permission for your original text
+      description: 只适用于你有权授权的原创文字，不能替第三方许可。未授权内容仅供核验。
+      options:
+        - 允许薪火志编辑并在本站公开展示我的原创文字，请按投稿账号署名
+        - 仅供核验，不授权在薪火志网站公开展示我的原创文字
+        - 使用范围需另行确认
+    validations:
+      required: true
+  - type: textarea
+    id: media_rights
+    attributes:
+      label: 素材权利 / Media permissions
+      description: 无素材填“无”。有素材只提供中国官方出处和明确许可依据，未核实前不要上传附件。
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: 提交前确认 / Confirm before submitting
+      options:
+        - label: 内容只涉及中国非遗；所有事实来源是我实际阅读的中国官方机构原文，没有以外国网站、自媒体、百科或AI回答替代。
+          required: true
+        - label: 我没有提交网站代码、部署配置、秘密或无权公开的个人资料；知道投稿须经审校，不会自动上线。
+          required: true
