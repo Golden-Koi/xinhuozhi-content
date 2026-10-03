@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         Issue正文和附件公开可见，不要提交只允许私下核验的材料。使用范围选项仅约束网站采用，不会让Issue变成私密。
-        本仓库只接受内容线索，不接受网站代码修改。请先阅读 CONTENT_STANDARD.md 和 CONTRIBUTING.md。所有事实Source须为中国官方机构网站原文；外国来源、外国非遗项目不予采用。请勿上传无许可素材或私人资料。
+        本仓库只接受内容线索，不接受网站代码修改。请先阅读[内容标准](https://github.com/Golden-Koi/xinhuozhi-content/blob/main/CONTENT_STANDARD.md)和[投稿说明](https://github.com/Golden-Koi/xinhuozhi-content/blob/main/CONTRIBUTING.md)。所有事实Source须为中国官方机构网站原文；外国来源、外国非遗项目不予采用。请勿上传无许可素材或私人资料。
   - type: dropdown
     id: kind
     attributes:
@@ -65,9 +65,9 @@ body:
       label: 原创文字的使用范围 / Permission for your original text
       description: 只适用于你有权授权的原创文字，不能替第三方许可。未授权内容仅供核验。
       options:
+        - 使用范围需另行确认
         - 允许薪火志编辑并在本站公开展示我的原创文字，请按投稿账号署名
         - 仅供核验，不授权在薪火志网站公开展示我的原创文字
-        - 使用范围需另行确认
     validations:
       required: true
   - type: textarea
