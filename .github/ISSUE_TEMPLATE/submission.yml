@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         Issue正文和附件公开可见，不要提交只允许私下核验的材料。使用范围选项仅约束网站采用，不会让Issue变成私密。
-        本仓库只接受内容线索，不接受网站代码修改。请先阅读[内容标准](https://github.com/Golden-Koi/xinhuozhi-content/blob/main/CONTENT_STANDARD.md)和[投稿说明](https://github.com/Golden-Koi/xinhuozhi-content/blob/main/CONTRIBUTING.md)。所有事实Source须为中国官方机构网站原文；外国来源、外国非遗项目不予采用。请勿上传无许可素材或私人资料。
+        本仓库只接受内容线索，不接受网站代码修改。请先阅读[内容标准](https://github.com/Golden-Koi/xinhuozhi-content/blob/main/CONTENT_STANDARD.md)和[投稿说明](https://github.com/Golden-Koi/xinhuozhi-content/blob/main/CONTRIBUTING.md)。文化事实Source须符合中国官方来源标准；中国政府官网完整刊载的正式公文按内容标准逐项核验，普通转载不适用；外国来源、外国非遗项目不予采用。请勿上传无许可素材或私人资料。
   - type: dropdown
     id: kind
     attributes:
@@ -42,7 +42,7 @@ body:
     id: official_sources
     attributes:
       label: 中国官方原文与逐条事实依据 / Chinese official sources
-      description: 每条来源写URL、标题、发布机构、发布/更新日期、访问日期、对应哪项说法、原文位置。无日期写未知。
+      description: 每条来源写URL、标题、发布机构、发布/更新日期、访问日期、对应哪项说法、原文位置。无日期写未知。完整公文另填发文机关、文号、文件日期、承载机关及实际采用正文或附件位置。
     validations:
       required: true
   - type: textarea
@@ -82,7 +82,7 @@ body:
     attributes:
       label: 提交前确认 / Confirm before submitting
       options:
-        - label: 内容只涉及中国非遗；所有事实来源是我实际阅读的中国官方机构原文，没有以外国网站、自媒体、百科或AI回答替代。
+        - label: 内容只涉及中国非遗；文化事实来源已实际读取并核对，符合中国官方来源及完整正式公文标准，没有以外国网站、自媒体、百科或AI回答替代。
           required: true
         - label: 我没有提交网站代码、部署配置、秘密或无权公开的个人资料；知道投稿须经审校，不会自动上线。
           required: true
