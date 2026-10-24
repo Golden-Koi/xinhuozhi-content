@@ -2,7 +2,7 @@
 
 这里收集中国非遗相关的内容补充、事实纠错和官方资料线索。网站：https://xinhuozhi.org
 
-**请通过 Issues 的“内容补充或纠错”表单投稿。Issue正文及附件会公开可见，请勿提交只允许私下核验的材料。这里不是网站代码仓库；投稿不会直接修改或发布网站。**
+**可通过 Issues 的“内容补充或纠错”表单投稿，或通过 Pull Request 提交 contributions/ 下的内容候选。投稿正文及附件公开可见，请勿提交只允许私下核验的材料。这里接收候选，由我们审查后采用；投稿不会直接修改或发布网站。**
 
 ## 投稿要求
 
@@ -17,13 +17,13 @@
 
 ## 投稿之后
 
-个人、AI及本站内部提案采用相同审校要求；AI输出不是来源，不能自动修改或发布网站。编辑先核官方身份和原文，再审事实、权利及中英文表述。资料不足会要求补充或不予采用。只有完成审校的内容，才由薪火志总控整合进内部唯一工程，经过测试和页面验收后发布。收件、讨论、关闭Issue均不等于已采用或已上线。
+个人、AI及本站内部提案采用相同审校要求；AI输出不是来源，不能自动修改或发布网站。编辑先核官方身份和原文，再审事实、权利及中英文表述。资料不足会要求补充或不予采用。只有完成审校的内容，才由薪火志总控整合进 GitHub 正式资料库，再通过工作副本制作网站候选，经过测试和页面验收后发布。收件、讨论、关闭Issue均不等于已采用或已上线。
 
-网站源代码、部署凭证、内部审校记录和发布权限不在本仓库。请不要通过 Pull Request 提交网站修改；本仓库只接受内容线索，维护者自行维护投稿规范。
+网站源代码、部署凭证、内部审校原件和发布权限不在本仓库。内容 PR 只提交 contributions/ 下的候选，按“标题 → 骨架 → 内容”组织；网站代码及部署修改不属于投稿范围。公开候选合并、正式资料采用、网站上线分别记录。正式数据以维护者审查后的 GitHub 资料版本为准；本地工作副本不另设数据权威。
 
 ## English
 
-This repository collects additions and corrections about Chinese intangible cultural heritage. Submit an issue using the structured form. It does not contain the website's source code and submissions cannot change or deploy the site.
+This repository collects additions and corrections about Chinese intangible cultural heritage. Use the structured issue form, or submit a content proposal under contributions/ in a pull request. Maintainers review proposals before adoption. It does not contain the website's source code and submissions cannot change or deploy the site.
 
 Cultural facts must be supported by verified Chinese official institutional sources that meet the content standard. Cultural-fact sources from outside China and heritage subjects from other countries are outside this collection's scope. A Chinese-language page or a `.cn` domain alone is not proof of official status. Unsupported claims, search snippets and AI-generated citations are not accepted.
 
@@ -31,7 +31,7 @@ A complete formal government document hosted on a verified Chinese government we
 
 Product leads may point to sellers anywhere in the world, including specific marketplace stores. Overseas shipping is not required. Provide the exact listing and applicable delivery and returns policies. Seller identity and store ownership must be verifiable. Commercial pages support transaction details only, never heritage recognition or maker credentials. A worldwide-shipping statement is a seller claim, not a check of every country; unpublished destinations remain unknown. Do not upload unlicensed product photographs. The site accepts no payments, handles no orders and receives no commissions or promotion fees.
 
-Editors verify the evidence and permissions before preparing independently written Chinese and English content. Acceptance and website publication are separate steps. Issues and attachments are publicly visible. Do not post material intended only for private review. Do not upload unlicensed third-party media. Never submit credentials or private personal information.
+The reviewed GitHub data repository is the authority for adopted data; local copies support editing and execution. Editors verify evidence and permissions before preparing independently written Chinese and English content. Acceptance and website publication are separate steps. Issues and attachments are publicly visible. Do not post material intended only for private review. Do not upload unlicensed third-party media. Never submit credentials or private personal information.
 
 ## 权利
 
